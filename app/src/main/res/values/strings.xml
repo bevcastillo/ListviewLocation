@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListviewLocation</string>
+
+    <string name="EditDataActivity">Edit Location Data</string>
+    <string name="Add">Add Location</string>
+    <string name="title_activity_add_location">AddLocationActivity</string>
+</resources>

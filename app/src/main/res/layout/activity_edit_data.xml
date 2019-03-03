@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditDataActivity"
+    android:orientation="vertical"
+    android:background="@color/bluishWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Latitude:"
+            android:textColor="@color/colorblack1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/updatetextLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="0.0"
+            android:textColor="@color/colorblack1"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Longitude:"
+            android:textColor="@color/colorblack1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/updatetextLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="0.0"
+            android:textColor="@color/colorblack1"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/updateeditText"
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:hint="Enter Location.."
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/updatebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:text="UPDATE"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/updatebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+            android:text="DELETE"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bluishWhite">
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorWhite"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:drawableTint="@color/darkerPink"
+        android:hint="Search..."
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>
